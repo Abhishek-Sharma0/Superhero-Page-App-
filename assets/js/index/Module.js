@@ -6,7 +6,6 @@ const superHeroApp = (() => {
 	const suggestionBox = document.getElementsByClassName("autocomplete-box")[0];
 	const input = document.getElementsByTagName("input")[0];
 	const UL = document.querySelector(".search-box ul");
-	const footerRect = document.querySelector("footer").getBoundingClientRect();
 	const height = Math.max(
 		document.body.scrollHeight,
 		document.body.offsetHeight,
