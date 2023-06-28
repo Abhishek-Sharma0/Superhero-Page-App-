@@ -1,0 +1,1 @@
+superHeroPage.initialize();
